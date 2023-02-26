@@ -1,0 +1,17 @@
+.navbar {
+    border-bottom: 2px solid #12BDED;
+}
+
+.navbar-brand {
+    font-family: Segoe Print, Verdana;
+    color: #ed12bd;
+}
+
+.navbar li {
+    font-family:  Verdana;
+}
+
+.navbar  .nav-item .dropdown-item:hover {
+    background-color: #12bdedeb;
+    color: #ed12bd;
+}
