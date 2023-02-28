@@ -10,6 +10,7 @@ import { CardBoxComponent } from './components/card-box/card-box.component';
 import { AdversingComponent } from './components/adversing/adversing.component';
 import { PopularBrandsComponent } from './components/popular-brands/popular-brands.component';
 import { BrandComponent } from './components/brand/brand.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { BrandComponent } from './components/brand/brand.component';
     AdversingComponent,
     PopularBrandsComponent,
     BrandComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
