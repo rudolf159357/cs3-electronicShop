@@ -7,6 +7,9 @@ import { NavComponent } from './components/nav/nav.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { CardComponent } from './components/card/card.component';
 import { CardBoxComponent } from './components/card-box/card-box.component';
+import { AdversingComponent } from './components/adversing/adversing.component';
+import { PopularBrandsComponent } from './components/popular-brands/popular-brands.component';
+import { BrandComponent } from './components/brand/brand.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CardBoxComponent } from './components/card-box/card-box.component';
     NavComponent,
     HeroComponent,
     CardComponent,
-    CardBoxComponent
+    CardBoxComponent,
+    AdversingComponent,
+    PopularBrandsComponent,
+    BrandComponent,
   ],
   imports: [
     BrowserModule,
