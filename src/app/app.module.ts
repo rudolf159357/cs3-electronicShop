@@ -11,6 +11,15 @@ import { AdversingComponent } from './components/adversing/adversing.component';
 import { PopularBrandsComponent } from './components/popular-brands/popular-brands.component';
 import { BrandComponent } from './components/brand/brand.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './views/home/home.component';
+import { TvComponent } from './views/tv/tv.component';
+import { PhonesComponent } from './views/phones/phones.component';
+import { NotebooksComponent } from './views/notebooks/notebooks.component';
+import { TableComputersComponent } from './views/table-computers/table-computers.component';
+import { MenuCardsComponent } from './components/menu-cards/menu-cards.component';
+import { MenuBoxComponent } from './components/menu-box/menu-box.component';
+import { IphonesComponent } from './views/iphones/iphones.component';
+import { MacbooksComponent } from './views/macbooks/macbooks.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +32,15 @@ import { FooterComponent } from './components/footer/footer.component';
     PopularBrandsComponent,
     BrandComponent,
     FooterComponent,
+    HomeComponent,
+    TvComponent,
+    PhonesComponent,
+    NotebooksComponent,
+    TableComputersComponent,
+    MenuCardsComponent,
+    MenuBoxComponent,
+    IphonesComponent,
+    MacbooksComponent,
   ],
   imports: [
     BrowserModule,
