@@ -8,8 +8,6 @@ import { HeroComponent } from './components/hero/hero.component';
 import { CardComponent } from './components/card/card.component';
 import { CardBoxComponent } from './components/card-box/card-box.component';
 import { AdversingComponent } from './components/adversing/adversing.component';
-import { PopularBrandsComponent } from './components/popular-brands/popular-brands.component';
-import { BrandComponent } from './components/brand/brand.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 import { TvComponent } from './views/tv/tv.component';
@@ -29,8 +27,6 @@ import { MacbooksComponent } from './views/macbooks/macbooks.component';
     CardComponent,
     CardBoxComponent,
     AdversingComponent,
-    PopularBrandsComponent,
-    BrandComponent,
     FooterComponent,
     HomeComponent,
     TvComponent,
