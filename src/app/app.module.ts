@@ -18,6 +18,7 @@ import { MenuCardsComponent } from './components/menu-cards/menu-cards.component
 import { MenuBoxComponent } from './components/menu-box/menu-box.component';
 import { IphonesComponent } from './views/iphones/iphones.component';
 import { MacbooksComponent } from './views/macbooks/macbooks.component';
+import { DetailsComponent } from './components/details/details.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { MacbooksComponent } from './views/macbooks/macbooks.component';
     MenuBoxComponent,
     IphonesComponent,
     MacbooksComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,
