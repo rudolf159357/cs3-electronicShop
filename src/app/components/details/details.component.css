@@ -27,8 +27,8 @@ img {
     border: none;
     border-radius: 8px;
     width: 30%;
-    height: 70px;
-    font-size: 26px;
+    height:  4.1em/*70px*/;
+    font-size: 1.6rem /*26px*/;
 }
 
 .details button:hover {
