@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClientModule} from "@angular/common/http"
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,9 +14,6 @@ import { HomeComponent } from './views/home/home.component';
 import { TvComponent } from './views/tv/tv.component';
 import { PhonesComponent } from './views/phones/phones.component';
 import { NotebooksComponent } from './views/notebooks/notebooks.component';
-import { TableComputersComponent } from './views/table-computers/table-computers.component';
-import { MenuCardsComponent } from './components/menu-cards/menu-cards.component';
-import { MenuBoxComponent } from './components/menu-box/menu-box.component';
 import { IphonesComponent } from './views/iphones/iphones.component';
 import { MacbooksComponent } from './views/macbooks/macbooks.component';
 import { DetailsComponent } from './components/details/details.component';
@@ -33,16 +31,15 @@ import { DetailsComponent } from './components/details/details.component';
     TvComponent,
     PhonesComponent,
     NotebooksComponent,
-    TableComputersComponent,
-    MenuCardsComponent,
-    MenuBoxComponent,
     IphonesComponent,
     MacbooksComponent,
     DetailsComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

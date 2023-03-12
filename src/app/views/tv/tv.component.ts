@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GetdataService } from 'src/app/services/getdata.service';
 
 @Component({
   selector: 'app-tv',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TvComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: GetdataService) { }
 
   ngOnInit(): void {
+    this.service.getTv().subscribe({next: (res) => {
+      console.log(res);
+    },
+    error: (err) => {
+      console.log(err)
+    }});
   }
-
 }
